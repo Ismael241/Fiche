@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire</title>
+</head>
+<body>
+	<div align="center">
+	<h1 align="center">FICHE DE RENSEIGEMENTS</h1>
+	  <fieldset>
+	  	<legend>Civilité:</legend>
+       <form action="" method="get">
+        <p>Noms & Prénoms:</p> 
+        <input type="text" name="Noms & Prénoms" size="50" required>
+         <p>Date de naissance:</p> <input type="date" name="bday">
+        <p>Addresse E-mail:</p> 
+        <input type="text" name="Addresse e-mail" required>
+        <br><br>
+        <p>Sexe:</p><input type="radio" name="gender" value="Homme" checked> Male
+        <input type="radio" name="gender" value="femme"> Female<br>
+       </form>
+      </fieldset>
+      <fieldset>
+	  	<legend>Formation:</legend><br>
+	  	<p>Diplome:</p> 
+        <select name="">
+        <option value="aucun">Aucun</option>
+        <option value="bac+2">bac+2</option>
+        <option value="bac+3" selected="bac+3">bac+3</option>
+        <option value="bac+5">bac+5</option>
+        </select>
+        <p>Centres d'interets:</p> 
+        <input type="checkbox" name="interet" value="Homme" checked> Musique
+        <input type="checkbox" name="interet" value="femme"> Sport
+        <input type="checkbox" name="interet" value="femme"> Lecture <br><br>
+        <p>Commentaire:</p> 
+        <textarea name="message" rows="5" cols="20" maxlength="100">Votre commentaire ici</textarea>
+        <br>
+        <input type="radio" name="" value=""> J'accepte les conditioons d'utilisation <br><br>
+        <input type="submit" value="Envoyer">
+	  </div>
+	   </fieldset>
+	</div>
+
+</body>
+</html>
